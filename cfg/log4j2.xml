@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="DEBUG">
     <Appenders>
-        <RollingFile name="RollingFile" fileName="logs/skyfolks.log"
+        <RollingFile name="RollingFile" fileName="logs/practice01.log"
                      filePattern="logs/skyfolks.%i.log">
             <PatternLayout pattern="%d [%10.10t] %-7level - %msg%n"/>
             <Policies>

@@ -3,6 +3,7 @@
   :dependencies [
                  [aleph "0.4.6"]
                  [cheshire "5.10.0"]
+                 [com.andrewmcveigh/cljs-time "0.5.2"]
                  [compojure "1.6.1"]
                  [garden "1.3.9"]
                  [hiccup "1.0.5"]
@@ -17,6 +18,7 @@
                  [reagent "0.9.1"]
                  [ring "1.8.0"]
                  [ring/ring-json "0.5.0"]
+                 [thi.ng/geom "1.0.0-RC4"]
                  ]
 
 
@@ -46,7 +48,7 @@
              {:source-paths ["src/cljs" "src/cljc"]
               :cljsbuild    {:builds {:report
                                       {:jar      true
-                                       :compiler {:main          "skyfolks.core"
+                                       :compiler {:main          "practice01.core"
                                                   :asset-path    "out"
                                                   :optimizations :none
                                                   :pretty-print  true}}}}}

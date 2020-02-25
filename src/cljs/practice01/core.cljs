@@ -1,6 +1,7 @@
 (ns practice01.core
   (:require
-    
+    [reagent.core :as r]
+    [practice01.app :as a]
     ))
 
-#_(r/render-component [a/app routing/nav-pos] (.getElementById js/document "app"))
+(r/render-component [a/app] (.getElementById js/document "app"))
